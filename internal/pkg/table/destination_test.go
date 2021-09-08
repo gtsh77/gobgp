@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 
 	"github.com/stretchr/testify/assert"
 )

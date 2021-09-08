@@ -3,12 +3,12 @@
 # renew GOPATH
 rm -rf /usr/local/jenkins/{bin,pkg,src}
 mkdir /usr/local/jenkins/{bin,pkg,src}
-mkdir -p /usr/local/jenkins/src/github.com/osrg/
+mkdir -p /usr/local/jenkins/src/github.com/gtsh77/
 
 export GOBGP_IMAGE=gobgp
 export GOPATH=/usr/local/jenkins
 export GOROOT=/usr/local/go
-export GOBGP=/usr/local/jenkins/src/github.com/osrg/gobgp
+export GOBGP=/usr/local/jenkins/src/git.netdike/backend/gobgp2
 export WS=`pwd`
 
 # clear docker.log

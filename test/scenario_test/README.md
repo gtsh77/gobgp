@@ -66,9 +66,9 @@ Server: Docker Engine - Community
 Execute the following commands inside the VM to install the dependencies:
 
 ```shell
-$ mkdir -p $GOPATH/src/github.com/osrg
-$ cd $GOPATH/src/github.com/osrg
-$ git clone https://github.com/osrg/gobgp.git
+$ mkdir -p $GOPATH/src/github.com/gtsh77
+$ cd $GOPATH/src/github.com/gtsh77
+$ git clone https://git.netdike/backend/gobgp2.git
 $ cd ./gobgp/test
 $ sudo pip install -r pip-requires.txt
 ```
@@ -79,7 +79,7 @@ You need to install local source code into GoBGP docker container.
 You also need this operation at every modification to the source code.
 
 ```shell
-$ cd $GOPATH/src/github.com/osrg/gobgp
+$ cd $GOPATH/src/git.netdike/backend/gobgp2
 $ sudo fab2 -r ./test/lib make-gobgp-ctn
 ```
 
@@ -91,7 +91,7 @@ $ sudo fab2 -r ./test/lib make-gobgp-ctn
     If all tests passed, you can see "all tests passed successfully" at the end of the test.
 
     ```shell
-    $ cd $GOPATH/src/github.com/osrg/gobgp/test/scenario_test
+    $ cd $GOPATH/src/git.netdike/backend/gobgp2/test/scenario_test
     $ ./run_all_tests.sh
     ...
     OK
@@ -104,7 +104,7 @@ $ sudo fab2 -r ./test/lib make-gobgp-ctn
     See `test/scenario_test/*.py`, for the individual test files.
 
     ```shell
-    $ cd $GOPATH/src/github.com/osrg/gobgp/test/scenario_test
+    $ cd $GOPATH/src/git.netdike/backend/gobgp2/test/scenario_test
     $ sudo -E PYTHONPATH=$GOBGP/test python3 <scenario test name>.py --gobgp-image=gobgp
     ...
     OK

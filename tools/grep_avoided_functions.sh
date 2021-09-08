@@ -13,7 +13,7 @@ cd "${SCRIPT_DIR}/.."
 
 RESULT=0
 
-PKG_BASE=github.com/osrg/gobgp
+PKG_BASE=git.netdike/backend/gobgp2
 
 for FUNC in ${FUNCS[@]}
 do

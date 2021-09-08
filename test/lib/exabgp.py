@@ -28,7 +28,7 @@ class ExaBGPContainer(BGPContainer):
     SHARED_VOLUME = '/shared_volume'
     PID_FILE = '/var/run/exabgp.pid'
 
-    def __init__(self, name, asn, router_id, ctn_image_name='osrg/exabgp:4.0.5'):
+    def __init__(self, name, asn, router_id, ctn_image_name='gtsh77/exabgp:4.0.5'):
         super(ExaBGPContainer, self).__init__(name, asn, router_id, ctn_image_name)
         self.shared_volumes.append((self.config_dir, self.SHARED_VOLUME))
 
@@ -283,7 +283,7 @@ class ExaBGPContainer(BGPContainer):
 
 
 class RawExaBGPContainer(ExaBGPContainer):
-    def __init__(self, name, config, ctn_image_name='osrg/exabgp',
+    def __init__(self, name, config, ctn_image_name='gtsh77/exabgp',
                  exabgp_path=''):
         asn = None
         router_id = None

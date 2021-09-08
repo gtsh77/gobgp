@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 )
 
 const (

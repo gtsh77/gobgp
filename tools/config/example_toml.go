@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
+	"git.netdike/backend/gobgp2/internal/pkg/config"
 	"github.com/BurntSushi/toml"
-	"github.com/osrg/gobgp/internal/pkg/config"
 )
 
 func main() {

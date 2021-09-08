@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/osrg/gobgp/internal/pkg/zebra"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	"github.com/osrg/gobgp/pkg/packet/bmp"
-	"github.com/osrg/gobgp/pkg/packet/rtr"
+	"git.netdike/backend/gobgp2/internal/pkg/zebra"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/packet/bmp"
+	"git.netdike/backend/gobgp2/pkg/packet/rtr"
 	"github.com/spf13/viper"
 )
 

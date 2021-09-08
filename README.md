@@ -1,6 +1,6 @@
 # GoBGP: BGP implementation in Go
 
-[![Build Status](https://travis-ci.org/osrg/gobgp.svg?branch=master)](https://travis-ci.org/osrg/gobgp/builds)
+[![Build Status](https://travis-ci.org/gtsh77/gobgp.svg?branch=master)](https://travis-ci.org/gtsh77/gobgp/builds)
 
 GoBGP is an open source BGP implementation designed from scratch for
 modern environment and implemented in a modern programming language,
@@ -10,7 +10,7 @@ modern environment and implemented in a modern programming language,
 
 ## Install
 
-Try [a binary release](https://github.com/osrg/gobgp/releases/latest).
+Try [a binary release](https://git.netdike/backend/gobgp2/releases/latest).
 
 ## Documentation
 
@@ -61,5 +61,5 @@ code contributing.
 ## Licensing
 
 GoBGP is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/osrg/gobgp/blob/master/LICENSE) for the full
+[LICENSE](https://git.netdike/backend/gobgp2/blob/master/LICENSE) for the full
 license text.

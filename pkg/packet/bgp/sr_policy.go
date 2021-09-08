@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	api "github.com/osrg/gobgp/api"
+	api "git.netdike/backend/gobgp2/api"
 )
 
 type SRPolicyNLRI struct {

@@ -33,7 +33,7 @@ class BirdContainer(BGPContainer):
     WAIT_FOR_BOOT = 1
     SHARED_VOLUME = '/etc/bird'
 
-    def __init__(self, name, asn, router_id, ctn_image_name='osrg/bird'):
+    def __init__(self, name, asn, router_id, ctn_image_name='gtsh77/bird'):
         super(BirdContainer, self).__init__(name, asn, router_id,
                                             ctn_image_name)
         self.shared_volumes.append((self.config_dir, self.SHARED_VOLUME))
@@ -102,7 +102,7 @@ class BirdContainer(BGPContainer):
 
 
 class RawBirdContainer(BirdContainer):
-    def __init__(self, name, config, ctn_image_name='osrg/bird'):
+    def __init__(self, name, config, ctn_image_name='gtsh77/bird'):
         asn = None
         router_id = None
         for line in config.split('\n'):

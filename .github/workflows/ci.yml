@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@master
       - run: |
           go test -race -timeout 240s ./...
-          if [ "$(go env GOARCH)" = "amd64" ]; then go test -race github.com/osrg/gobgp/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
+          if [ "$(go env GOARCH)" = "amd64" ]; then go test -race git.netdike/backend/gobgp2/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
 
   unit386:
     name: unit386
@@ -66,9 +66,9 @@ jobs:
         run: |
           sudo apt-get install python3-setuptools
           sudo pip3 install -r test/pip-requires.txt
-          fab -r test/lib make-gobgp-ctn --tag gobgp --from-image osrg/quagga
+          fab -r test/lib make-gobgp-ctn --tag gobgp --from-image gtsh77/quagga
           docker save gobgp > gobgp.tar
-          fab -r test/lib make-gobgp-ctn --tag gobgp-oq --from-image osrg/quagga:v1.0
+          fab -r test/lib make-gobgp-ctn --tag gobgp-oq --from-image gtsh77/quagga:v1.0
           docker save gobgp-oq > gobgp-oq.tar
 
       - name: upload image file

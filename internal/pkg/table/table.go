@@ -22,8 +22,8 @@ import (
 	"strings"
 	"unsafe"
 
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 	"github.com/k-sone/critbitgo"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 

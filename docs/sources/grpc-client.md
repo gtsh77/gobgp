@@ -26,7 +26,7 @@ attribute_pb2.py  attribute_pb2_grpc.py  capability_pb2.py  capability_pb2_grpc.
 
 ### Adding Path
 
-[`tools/grpc/python/add_path.py`](https://github.com/osrg/gobgp/blob/master/tools/grpc/python/add_path.py)
+[`tools/grpc/python/add_path.py`](https://git.netdike/backend/gobgp2/blob/master/tools/grpc/python/add_path.py)
 shows an example for adding a route.
 Let's run this script.
 
@@ -46,14 +46,14 @@ $ gobgp g r
 
 ### Generating Interface and Binary
 
-Use [`tools/grpc/cpp/Makefile`](https://github.com/osrg/gobgp/blob/master/tools/grpc/cpp/Makefile).
+Use [`tools/grpc/cpp/Makefile`](https://git.netdike/backend/gobgp2/blob/master/tools/grpc/cpp/Makefile).
 
 ```bash
 $ cd tools/grpc/cpp
 $ make
  ```
 
-The above to generate the server and client interface and the binary to add a route by using `AddPath` API, ['tools/grpc/cpp/add_path.cc'](https://github.com/osrg/gobgp/blob/master/tools/grpc/cpp/add_path.cc).
+The above to generate the server and client interface and the binary to add a route by using `AddPath` API, ['tools/grpc/cpp/add_path.cc'](https://git.netdike/backend/gobgp2/blob/master/tools/grpc/cpp/add_path.cc).
 
 ### Adding Path
 

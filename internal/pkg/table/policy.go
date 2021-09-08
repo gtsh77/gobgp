@@ -26,10 +26,10 @@ import (
 	"strings"
 	"sync"
 
+	api "git.netdike/backend/gobgp2/api"
+	"git.netdike/backend/gobgp2/internal/pkg/config"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 	"github.com/k-sone/critbitgo"
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 

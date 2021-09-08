@@ -35,11 +35,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/apiutil"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "git.netdike/backend/gobgp2/api"
+	"git.netdike/backend/gobgp2/internal/pkg/config"
+	"git.netdike/backend/gobgp2/internal/pkg/table"
+	"git.netdike/backend/gobgp2/pkg/apiutil"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 )
 
 type server struct {

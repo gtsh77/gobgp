@@ -19,13 +19,14 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	log "github.com/sirupsen/logrus"
 	"io"
 	"math"
 	"net"
 	"strings"
 	"syscall"
+
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
+	log "github.com/sirupsen/logrus"
 )
 
 const (

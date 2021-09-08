@@ -60,7 +60,7 @@ class GoBGPContainer(BGPContainer):
     SHARED_VOLUME = '/root/shared_volume'
     QUAGGA_VOLUME = '/etc/quagga'
 
-    def __init__(self, name, asn, router_id, ctn_image_name='osrg/gobgp',
+    def __init__(self, name, asn, router_id, ctn_image_name='gtsh77/gobgp',
                  log_level='debug', zebra=False, config_format='toml',
                  zapi_version=2, bgp_config=None, ospfd_config=None,
                  zebra_multipath_enabled=False):
@@ -660,7 +660,7 @@ class GoBGPContainer(BGPContainer):
 
 
 class RawGoBGPContainer(GoBGPContainer):
-    def __init__(self, name, config, ctn_image_name='osrg/gobgp',
+    def __init__(self, name, config, ctn_image_name='gtsh77/gobgp',
                  log_level='debug', zebra=False, config_format='yaml'):
         if config_format is 'toml':
             d = toml.loads(config)

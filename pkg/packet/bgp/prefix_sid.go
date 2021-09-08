@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net"
 
+	api "git.netdike/backend/gobgp2/api"
 	"github.com/golang/protobuf/ptypes"
-	api "github.com/osrg/gobgp/api"
 )
 
 const (

@@ -7,7 +7,7 @@ from base import CmdBuffer
 @task
 def make_gobgp_ctn(ctx, tag='gobgp',
                    local_gobgp_path='',
-                   from_image='osrg/quagga'):
+                   from_image='gtsh77/quagga'):
     if local_gobgp_path == '':
         local_gobgp_path = os.getcwd()
 

@@ -5,12 +5,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/apiutil"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	"github.com/osrg/gobgp/pkg/server"
+	api "git.netdike/backend/gobgp2/api"
+	"git.netdike/backend/gobgp2/internal/pkg/config"
+	"git.netdike/backend/gobgp2/internal/pkg/table"
+	"git.netdike/backend/gobgp2/pkg/apiutil"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/server"
 )
 
 // ReadConfigFile parses a config file into a BgpConfigSet which can be applied

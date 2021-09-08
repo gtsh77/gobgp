@@ -37,7 +37,7 @@ class YABGPContainer(BGPContainer):
     SHARED_VOLUME = '/etc/yabgp'
 
     def __init__(self, name, asn, router_id,
-                 ctn_image_name='osrg/yabgp:v0.4.0'):
+                 ctn_image_name='gtsh77/yabgp:v0.4.0'):
         super(YABGPContainer, self).__init__(name, asn, router_id,
                                              ctn_image_name)
         self.shared_volumes.append((self.config_dir, self.SHARED_VOLUME))

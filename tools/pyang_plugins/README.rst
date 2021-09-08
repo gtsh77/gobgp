@@ -11,12 +11,12 @@ How to use
 ==========
 Set the environment variables for this tool::
 
-   $ GOBGP_PATH=$GOPATH/src/github.com/osrg/gobgp/
+   $ GOBGP_PATH=$GOPATH/src/git.netdike/backend/gobgp2/
 
 Clone the required resources by using Git::
 
    $ cd $HOME
-   $ git clone https://github.com/osrg/public
+   $ git clone https://github.com/gtsh77/public
    $ git clone https://github.com/YangModels/yang
    $ git clone https://github.com/mbj4668/pyang
 

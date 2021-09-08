@@ -38,7 +38,7 @@ class QuaggaBGPContainer(BGPContainer):
     WAIT_FOR_BOOT = 1
     SHARED_VOLUME = '/etc/quagga'
 
-    def __init__(self, name, asn, router_id, ctn_image_name='osrg/quagga', bgpd_config=None, zebra=False):
+    def __init__(self, name, asn, router_id, ctn_image_name='gtsh77/quagga', bgpd_config=None, zebra=False):
         super(QuaggaBGPContainer, self).__init__(name, asn, router_id,
                                                  ctn_image_name)
         self.shared_volumes.append((self.config_dir, self.SHARED_VOLUME))
@@ -401,7 +401,7 @@ class QuaggaBGPContainer(BGPContainer):
 
 
 class RawQuaggaBGPContainer(QuaggaBGPContainer):
-    def __init__(self, name, config, ctn_image_name='osrg/quagga', zebra=False):
+    def __init__(self, name, config, ctn_image_name='gtsh77/quagga', zebra=False):
         asn = None
         router_id = None
         for line in config.split('\n'):
@@ -427,8 +427,8 @@ class RawQuaggaBGPContainer(QuaggaBGPContainer):
 
 class QuaggaOSPFContainer(OSPFContainer):
     SHARED_VOLUME = '/etc/quagga'
-    ZAPI_V2_IMAGE = 'osrg/quagga'
-    ZAPI_V3_IMAGE = 'osrg/quagga:v1.0'
+    ZAPI_V2_IMAGE = 'gtsh77/quagga'
+    ZAPI_V3_IMAGE = 'gtsh77/quagga:v1.0'
 
     def __init__(self, name, image=ZAPI_V2_IMAGE, zapi_verion=2,
                  zebra_config=None, ospfd_config=None):

@@ -24,7 +24,7 @@ import (
 	farm "github.com/dgryski/go-farm"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	"github.com/osrg/gobgp/pkg/packet/mrt"
+	"git.netdike/backend/gobgp2/internal/pkg/config"
+	"git.netdike/backend/gobgp2/internal/pkg/table"
+	"git.netdike/backend/gobgp2/pkg/packet/bgp"
+	"git.netdike/backend/gobgp2/pkg/packet/mrt"
 
 	log "github.com/sirupsen/logrus"
 )

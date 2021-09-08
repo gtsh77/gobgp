@@ -3,7 +3,7 @@ module gobgp {
   yang-version "1";
 
   // namespace
-  namespace "https://github.com/osrg/gobgp";
+  namespace "https://git.netdike/backend/gobgp2";
 
   prefix "gobgp";
 
@@ -22,7 +22,7 @@ module gobgp {
     "GoBGP";
 
   contact
-    "GoBGP http://osrg.github.io/gobgp/";
+    "GoBGP http://gtsh77.github.io/gobgp/";
 
   description
     "This module contains definitions for GoBGP-specific configuration.
