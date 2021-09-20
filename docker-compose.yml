@@ -1,0 +1,29 @@
+version: '3'
+services:
+  gobgpd1:
+    build:
+      context: .
+      dockerfile: Dockerfile-server
+    restart: always
+    command: ./gobgpd --pprof-disable -p --log-level=debug
+    networks:
+      bgp:
+        aliases:
+        - bgp1
+  gobgpd2:
+    build:
+      context: .
+      dockerfile: Dockerfile-server
+    restart: always
+    command: ./gobgpd --pprof-disable -p --log-level=debug    
+    networks:
+      bgp:
+        aliases:
+        - bgp2  
+  client:
+    image: codebgp/gobgp:2.31.0
+    networks:
+      bgp:
+
+networks:
+  bgp:

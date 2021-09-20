@@ -10,7 +10,7 @@ modern environment and implemented in a modern programming language,
 
 ## Install
 
-Try [a binary release](https://git.netdike/backend/gobgp2/releases/latest).
+Try [a binary release](https://git.netdike/backend/gobgp2/src/releases/latest).
 
 ## Documentation
 
@@ -61,5 +61,5 @@ code contributing.
 ## Licensing
 
 GoBGP is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://git.netdike/backend/gobgp2/blob/master/LICENSE) for the full
+[LICENSE](https://git.netdike/backend/gobgp2/src/blob/master/LICENSE) for the full
 license text.

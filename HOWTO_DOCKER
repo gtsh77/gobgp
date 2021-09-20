@@ -1,0 +1,16 @@
+docker-compose up -d
+
+backend:
+docker-compose run --rm client gobgp -ubgp1 g router-id 172.16.0.131 as 1 listen-port 179 listen-addresses 172.16.0.131
+docker-compose run --rm client gobgp -ubgp1 n add 172.16.0.132 as 2
+
+сосед1:
+docker-compose run --rm client gobgp -ubgp2 g router-id 172.16.0.132 as 2 listen-port 179 listen-addresses 172.16.0.132
+docker-compose run --rm client gobgp -ubgp2 n add 172.16.0.131 as 1
+
+проверим, что сессия установлена:
+docker-compose run --rm client gobgp -ubgp2 n
+
+ответ:
+Peer         AS  Up/Down State       |#Received  Accepted
+172.16.0.131  1 00:02:13 Establ      |        0         0

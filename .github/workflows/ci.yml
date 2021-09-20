@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@master
       - run: |
           go test -race -timeout 240s ./...
-          if [ "$(go env GOARCH)" = "amd64" ]; then go test -race git.netdike/backend/gobgp2/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
+          if [ "$(go env GOARCH)" = "amd64" ]; then go test -race git.netdike/backend/gobgp2/src/pkg/packet/bgp -run ^Test_RaceCondition$; else echo 'skip'; fi
 
   unit386:
     name: unit386
