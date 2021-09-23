@@ -21,9 +21,9 @@ import (
 	"net"
 	"time"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"github.com/golang/protobuf/ptypes"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 // workaround. This for the json format compatibility. Once we update senario tests, we can remove this.

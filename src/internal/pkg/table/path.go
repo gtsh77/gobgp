@@ -24,8 +24,8 @@ import (
 	"sort"
 	"time"
 
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 )

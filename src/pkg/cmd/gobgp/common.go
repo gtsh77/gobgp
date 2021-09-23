@@ -29,8 +29,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 const globalRIBName = "global"

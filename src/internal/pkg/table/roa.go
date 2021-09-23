@@ -19,8 +19,8 @@ import (
 	"net"
 	"sort"
 
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 	"github.com/k-sone/critbitgo"
 	log "github.com/sirupsen/logrus"
 )

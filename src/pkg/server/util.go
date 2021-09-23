@@ -22,7 +22,7 @@ import (
 
 	"github.com/eapache/channels"
 
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 func cleanInfiniteChannel(ch *channels.InfiniteChannel) {

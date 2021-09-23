@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"time"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/internal/pkg/table"
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bmp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bmp"
 	log "github.com/sirupsen/logrus"
 )
 

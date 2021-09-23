@@ -27,11 +27,11 @@ import (
 	"syscall"
 	"time"
 
-	"git.netdike/backend/gobgp2/src/internal/pkg/table"
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bmp"
 	"github.com/eapache/channels"
+	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bmp"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -17,8 +17,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"
-	api "git.netdike/backend/gobgp2/src/api"
-	gobgp "git.netdike/backend/gobgp2/src/pkg/server"
+	api "github.com/gtsh77/gobgp/srcapi"
+	gobgp "github.com/gtsh77/gobgp/srcpkg/server"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -24,9 +24,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/pkg/apiutil"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcpkg/apiutil"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 func makeMonitorRouteArgs(p *api.Path, showIdentifier bgp.BGPAddPathMode) []interface{} {

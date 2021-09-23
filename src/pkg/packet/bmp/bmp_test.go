@@ -18,7 +18,7 @@ package bmp
 import (
 	"testing"
 
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

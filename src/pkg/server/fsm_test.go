@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"github.com/eapache/channels"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

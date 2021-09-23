@@ -25,14 +25,14 @@ import (
 	"strconv"
 	"strings"
 
-	"git.netdike/backend/gobgp2/src/pkg/apiutil"
+	"github.com/gtsh77/gobgp/srcpkg/apiutil"
 
 	"github.com/spf13/cobra"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	table "git.netdike/backend/gobgp2/src/internal/pkg/table"
-	config "git.netdike/backend/gobgp2/src/pkg/in_config"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	table "github.com/gtsh77/gobgp/srcinternal/pkg/table"
+	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 var (

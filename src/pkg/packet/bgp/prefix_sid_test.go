@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	api "git.netdike/backend/gobgp2/src/api"
 	"github.com/golang/protobuf/ptypes/any"
+	api "github.com/gtsh77/gobgp/srcapi"
 )
 
 func TestRoundTripSubSubTLV(t *testing.T) {

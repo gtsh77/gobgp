@@ -34,10 +34,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/internal/pkg/version"
-	"git.netdike/backend/gobgp2/src/pkg/config"
-	"git.netdike/backend/gobgp2/src/pkg/server"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcinternal/pkg/version"
+	"github.com/gtsh77/gobgp/srcpkg/config"
+	"github.com/gtsh77/gobgp/srcpkg/server"
 )
 
 func main() {

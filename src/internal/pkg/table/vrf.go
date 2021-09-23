@@ -16,7 +16,7 @@
 package table
 
 import (
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 type Vrf struct {

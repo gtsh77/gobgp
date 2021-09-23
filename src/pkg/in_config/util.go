@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/pkg/apiutil"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcpkg/apiutil"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 )
 
 // Returns config file type by retrieving extension from the given path.

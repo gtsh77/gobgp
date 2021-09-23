@@ -25,7 +25,7 @@ import (
 	"strings"
 	"syscall"
 
-	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 

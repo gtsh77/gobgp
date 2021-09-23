@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"git.netdike/backend/gobgp2/src/pkg/server"
+	"github.com/gtsh77/gobgp/srcpkg/server"
 )
 
 // ExampleUpdateConfig shows how InitialConfig can be used without UpdateConfig

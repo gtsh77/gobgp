@@ -18,7 +18,7 @@ package glib
 import (
 	"fmt"
 
-	api "git.netdike/backend/gobgp2/src/api"
+	api "github.com/gtsh77/gobgp/srcapi"
 	"github.com/spf13/cobra"
 )
 

@@ -20,8 +20,8 @@ import (
 	"net"
 	"strconv"
 
-	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/pkg/packet/bmp"
+	api "github.com/gtsh77/gobgp/srcapi"
+	"github.com/gtsh77/gobgp/srcpkg/packet/bmp"
 	"github.com/spf13/cobra"
 )
 
