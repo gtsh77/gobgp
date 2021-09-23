@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"github.com/BurntSushi/toml"
 )
 

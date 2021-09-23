@@ -14,7 +14,7 @@
 // limitations under the License.
 // +build !linux
 
-package config
+package in_config
 
 import (
 	"fmt"

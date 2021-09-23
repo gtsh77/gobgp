@@ -6,9 +6,9 @@ import (
 	"golang.org/x/net/context"
 
 	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
 	"git.netdike/backend/gobgp2/src/internal/pkg/table"
 	"git.netdike/backend/gobgp2/src/pkg/apiutil"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"git.netdike/backend/gobgp2/src/pkg/server"
 )

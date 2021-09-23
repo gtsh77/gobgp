@@ -19,7 +19,7 @@ import (
 	"net"
 	"sort"
 
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"github.com/k-sone/critbitgo"
 	log "github.com/sirupsen/logrus"

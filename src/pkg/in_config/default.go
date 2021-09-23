@@ -1,4 +1,4 @@
-package config
+package in_config
 
 import (
 	"encoding/binary"

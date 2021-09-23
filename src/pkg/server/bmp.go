@@ -23,8 +23,8 @@ import (
 	"time"
 
 	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
 	"git.netdike/backend/gobgp2/src/internal/pkg/table"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bmp"
 	log "github.com/sirupsen/logrus"

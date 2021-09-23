@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 	"github.com/stretchr/testify/assert"
 )

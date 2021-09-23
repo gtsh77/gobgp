@@ -30,8 +30,8 @@ import (
 	"github.com/spf13/cobra"
 
 	api "git.netdike/backend/gobgp2/src/api"
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
 	table "git.netdike/backend/gobgp2/src/internal/pkg/table"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 )
 

@@ -20,8 +20,8 @@ import (
 	"net"
 	"time"
 
-	"git.netdike/backend/gobgp2/src/internal/pkg/config"
 	"git.netdike/backend/gobgp2/src/internal/pkg/table"
+	config "git.netdike/backend/gobgp2/src/pkg/in_config"
 	"git.netdike/backend/gobgp2/src/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
