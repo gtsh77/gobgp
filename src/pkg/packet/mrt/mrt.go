@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 const (

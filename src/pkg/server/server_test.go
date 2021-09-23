@@ -30,11 +30,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 func TestStop(t *testing.T) {

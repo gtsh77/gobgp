@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/eapache/channels"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

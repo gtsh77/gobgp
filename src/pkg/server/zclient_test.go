@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/zebra"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	"github.com/gtsh77/gobgp/src/internal/pkg/zebra"
 )
 
 func Test_newPathFromIPRouteMessage(t *testing.T) {

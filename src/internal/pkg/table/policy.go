@@ -26,9 +26,9 @@ import (
 	"strings"
 	"sync"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/src/api"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 	"github.com/k-sone/critbitgo"
 	log "github.com/sirupsen/logrus"
 )

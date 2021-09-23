@@ -29,10 +29,10 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/spf13/cobra"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 // used in showRoute() to determine the width of each column

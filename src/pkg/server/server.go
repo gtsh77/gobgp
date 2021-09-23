@@ -31,12 +31,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/zebra"
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	"github.com/gtsh77/gobgp/src/internal/pkg/zebra"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 type tcpListener struct {

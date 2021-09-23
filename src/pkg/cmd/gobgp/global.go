@@ -27,11 +27,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
 
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 type extCommType int

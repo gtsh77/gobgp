@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/BurntSushi/toml"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
 )
 
 func main() {

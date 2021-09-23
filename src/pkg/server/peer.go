@@ -20,9 +20,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 )

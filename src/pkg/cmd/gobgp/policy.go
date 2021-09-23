@@ -25,14 +25,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
 
 	"github.com/spf13/cobra"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	table "github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	config "github.com/gtsh77/gobgp/srcpkg/in_config"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	api "github.com/gtsh77/gobgp/src/api"
+	table "github.com/gtsh77/gobgp/src/internal/pkg/table"
+	config "github.com/gtsh77/gobgp/src/pkg/in_config"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 )
 
 var (

@@ -774,7 +774,7 @@ def generate_header(fd):
     print('import (', file=fd)
     print('"fmt"', file=fd)
     print('', file=fd)
-    print('"github.com/gtsh77/gobgp/srcpkg/packet/bgp"', file=fd)
+    print('"github.com/gtsh77/gobgp/src/pkg/packet/bgp"', file=fd)
     print(')', file=fd)
     print('', file=fd)
 

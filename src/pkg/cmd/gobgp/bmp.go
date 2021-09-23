@@ -20,8 +20,8 @@ import (
 	"net"
 	"strconv"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bmp"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bmp"
 	"github.com/spf13/cobra"
 )
 

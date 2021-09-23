@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gtsh77/gobgp/srcinternal/pkg/table"
-	"github.com/gtsh77/gobgp/srcinternal/pkg/zebra"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/internal/pkg/table"
+	"github.com/gtsh77/gobgp/src/internal/pkg/zebra"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 
 	log "github.com/sirupsen/logrus"
 )

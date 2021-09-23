@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	api "github.com/gtsh77/gobgp/srcapi"
+	api "github.com/gtsh77/gobgp/src/api"
 )
 
 type SRPolicyNLRI struct {

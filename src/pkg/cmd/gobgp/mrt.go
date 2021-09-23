@@ -24,10 +24,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	api "github.com/gtsh77/gobgp/srcapi"
-	"github.com/gtsh77/gobgp/srcpkg/apiutil"
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
-	"github.com/gtsh77/gobgp/srcpkg/packet/mrt"
+	api "github.com/gtsh77/gobgp/src/api"
+	"github.com/gtsh77/gobgp/src/pkg/apiutil"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/pkg/packet/mrt"
 )
 
 func injectMrt() error {

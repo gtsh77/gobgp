@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/gtsh77/gobgp/srcpkg/packet/bgp"
+	"github.com/gtsh77/gobgp/src/pkg/packet/bgp"
 	log "github.com/sirupsen/logrus"
 )
 
